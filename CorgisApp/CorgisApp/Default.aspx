@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CorgisApp.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CorgisApp.Corgis" %>
 
 <!DOCTYPE html>
 
@@ -34,6 +34,7 @@
 
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
                 <div class="card-header bg-primary text-white">
                     <h5>Descripción</h5>
                 </div>
@@ -43,7 +44,9 @@
                     </p>
                 </div>
             </div>
+            </div>
             <div class="col col-md col-lg">
+                <div class="card mt-2 mt-md-0">
                 <div class="card-header">
                     <h5>Imagen del Corgi</h5>
                 </div>
@@ -51,11 +54,20 @@
                 <img src="img/corgi.jpg" class="img-fluid" />
                 </div>
             </div>
+            </div>
         </div>
 
     <h1>Hola Mundo</h1>
     </main>
     </form>
+<%--FOOTER--%>
+    <footer class="bg-dark container-fluid fixed-bottom pt-2 pb-2 d-lg-block">
+        <div class="row">
+            <div class="col-12 text-white text-center">
+        <h5>Ante cualquier cosa contactar a <a href="#">ninio_rata@gmail.com</a></h5>
+            </div>
+        </div>
+    </footer>
 <%--BOOTSTRAP--%>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
